@@ -1,16 +1,16 @@
 # Lab Report 1
 
-### cd
+### `cd`
 * no args:
 * path to /
 * path to
 
-### ls
+### `ls`
 * no args:
 * path to /
 * path to
 
-### cat
+### `cat`
 * no args:
 * path to /
 * path to 
