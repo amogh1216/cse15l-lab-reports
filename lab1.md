@@ -63,7 +63,6 @@ The working directory was `/home/lecture1` when the command was run (and the sam
 ## `cat`
 * ### no args
 ```java
-
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
 [user@sahara ~/lecture1]$ cat
