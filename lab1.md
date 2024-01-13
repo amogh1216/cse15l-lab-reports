@@ -79,6 +79,9 @@ cat: messages/: Is a directory
 The working directory was `/home/lecture1` when the command was run. There is a error message that indicates that the argument I entered is a directory, not a file. This means it can't be read with the `cat` command. 
 
 * ### path to /home/lecture1/Hello.java
+
+
+
 ```java
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
