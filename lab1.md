@@ -63,10 +63,10 @@ The working directory was `/home/lecture1` when the command was run (and the sam
 ## `cat`
 * ### no args
 ```java
+
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
 [user@sahara ~/lecture1]$ cat
-
 
 ```
 The working directory was `/home/lecture1` when the command was run. There was no output and it seems the command is never finished executing. This is because `cat` is supposed to read the contents of a file, but in this case since I add no arguments to a file it tries to read the contents of the working directory, which it can't. That's why it results in this error.
@@ -95,5 +95,6 @@ public class Hello {
     String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
     System.out.println(content);
   }
+}
 ```
 The working directory was `/home/lecture1` when the command was run. The output is the contents of the `Hello.java` file that exists in the working directory because `Hello.java` was added as an argument after the `cat` command.
