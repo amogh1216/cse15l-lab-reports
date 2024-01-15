@@ -19,7 +19,7 @@ The working directory was `/home` when the command was run. After the command wa
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
 ```
-The working directory was `/home` when the command was run. After the command was run the working directory was `/home/lecture1`. Since I indicated what directory I wanted to change into, and that directory existed within the working directory (`/home`), the command changed directories into `/home/lecture1`. This output is not an error.
+The working directory was `/home` when the command was run. After the command was run the working directory was `/home/lecture1`. Since I indicated what directory I wanted to change into as the argument, and that directory existed within the working directory (`/home`), the command changed directories into `/home/lecture1`. This output is not an error.
 
 * ### path to /home/lecture1/messages/en-us.txt
 ```java
@@ -30,7 +30,7 @@ bash: cd: en-us.txt: Not a directory
 [user@sahara ~/lecture1/messages]$ pwd
 /home/lecture1/messages
 ```
-The working directory was `/home/lecture1/messages` when the command was run. After the command was run the working directory was the same. I got an error message because even though the file I changed into existed within the working directory, the specific file is not considered a directory that can be changed into. `cd` will only file into directories, not specific files.
+The working directory was `/home/lecture1/messages` when the command was run. After the command was run the working directory was the same. I got an error message because even though the file I changed into existed within the working directory, the specific file is not considered a directory that can be changed into. `cd` will only works with directories, not files.
 
 ## `ls`
 * ### no args
@@ -76,7 +76,7 @@ The working directory was `/home/lecture1` when the command was run. There was n
 [user@sahara ~/lecture1]$ cat messages/
 cat: messages/: Is a directory
 ```
-The working directory was `/home/lecture1` when the command was run. There is a error message that indicates that the argument I entered is a directory, not a file. This means it can't be read with the `cat` command. 
+The working directory was `/home/lecture1` when the command was run. There is a error message that indicates that the argument I entered is a path to a directory, not a file. This means it can't be read with the `cat` command. 
 
 * ### path to /home/lecture1/Hello.java
 
