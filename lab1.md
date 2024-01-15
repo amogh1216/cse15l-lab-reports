@@ -1,4 +1,5 @@
 # Lab Report 1
+This lab report is about the basic filesystem commands (`cd`, `ls`, and `cat`).
 
 ## `cd`
 * ### no args
