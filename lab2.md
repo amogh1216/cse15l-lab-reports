@@ -67,7 +67,10 @@ The same process outlined in screenshot 1 took place when using `/add-message` a
 
 The absolute path to the private key is  `/Users/planteatre/.ssh/id_rsa`. The absolute path to the public key is  `/Users/planteatre/.ssh/id_rsa.pub`.
 
+![Image](lab2files/ssh-saved.png)
+
 Below is an interaction where I log into ieng6 without being asked for the password.
+![Image](lab2files/ssh-login.png)
 
 
 ## Part 3 - Something I Learned
