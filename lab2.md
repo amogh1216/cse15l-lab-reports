@@ -75,4 +75,4 @@ Below is an interaction where I log into ieng6 without being asked for the passw
 
 ## Part 3 - Something I Learned
 
-I learned that making a server is a lot easier than I thought. I didn't know most of the functionality is abstracted and we don't have to do any very tehcnical work in setting up the network. These servers also centralize operations made by anyone who has access to the server on the web. We can run multiple operations at the same time from different devices and the server keeps track of it.
+I learned that making a server is a lot easier than I thought. I didn't know most of the functionality is abstracted and we don't have to do any very tehcnical work in setting up the network. These servers also centralize operations made by anyone who has access to the server on the web, so we can run multiple operations at the same time from different devices and the server keeps track of it.
