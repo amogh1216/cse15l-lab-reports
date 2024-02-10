@@ -89,3 +89,11 @@ After:
 This fix addresses the issue because before, items that passed the string check were prepended to the resulting list. This meant that the order of the original list wasn't preserved, and was in fact reversed. By changing the method call from `add(int index, E element)` to `add(E element)`, the element is added to the end of the list and the order of the list is preserved.
 
 ## Part 2 - Researching the Grep command
+
+### -i case insensitive command
+
+### -c get string pattern count
+
+### -w find exact string
+
+### -v lines that don't contain string pattern
